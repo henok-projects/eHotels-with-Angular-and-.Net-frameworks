@@ -1,0 +1,32 @@
+[
+    {
+        "Id":1,
+        "Type":"Skylight Hotel",
+        "price": 1200
+    },
+    {
+        "Id":2,
+        "Type":"Hilton Hotel",
+        "price": 1100
+    },
+    {
+        "Id":3,
+        "Type":"Sheger Hotel",
+        "price": 1000
+    },
+    {
+        "Id":4,
+        "Type":"Sheraten Addis Hotel",
+        "price": 900
+    },
+    {
+        "Id":5,
+        "Type":"Ethiopian Hotel",
+        "price": 800
+    },
+    {
+        "Id":6,
+        "Type":"Eliana Hotel",
+        "price": 700
+    }
+]

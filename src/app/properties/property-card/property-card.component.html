@@ -1,12 +1,18 @@
-<div class="row">
-    <div class="shadow-lg col-sm-4 p-3">
-        <div class="card">
-            <div class="card-body p-1">
-                <img class="propImg" src="assets/images/skylight.jpg"/>
-                <h1>{{property.Id}}</h1>
-                <h2>{{property.Type}}</h2>
-                <h3>{{property.price}}</h3>
-            </div>
+<div class="card">
+    <div class="card-body p-1">
+        <div class="card-img-wrapper">
+        <img class="card-img-top" src="assets/images/skylight.jpg"/>
+        <ul class="list-inline text-center member-icons animate">
+            <li class="list-inline-item">
+                <button class="btn btn-primary" routerLink="/property-detail/{{property.Id}}"><i class="fas fa-edit"></i></button>
+            </li>
+            <li class="list-inline-item">
+                <button class="btn btn-primary"><i class="fas fa-address-book"></i></button>
+            </li>
+        </ul>
         </div>
+            <h1>{{property.Id}}</h1>
+            <h2>{{property.Type}}</h2>
+            <h3>{{property.Price}}</h3>
     </div>
 </div>
